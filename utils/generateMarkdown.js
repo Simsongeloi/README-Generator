@@ -51,7 +51,7 @@ ${response.Description}
 
 
 ### License
-${generateLicense(response.license)}
+${generateLicense(response.License)}
 
 
 ### Installation

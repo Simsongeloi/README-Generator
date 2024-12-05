@@ -1,5 +1,5 @@
 
-# Title: ReadMe-generator
+# Title: READme-generator
 
 ## Table Of contents
 - [Description](#description)
@@ -14,11 +14,13 @@
 
 
 ### Description
-Generate a readme file to help understand what is ask of a project
+node js cLI app
 
 
 ### License
-undefined
+
+         ![GitHub license](https://img.shields.io/badge/license-blue.svg)
+        [License Detais](https://choosealicense.com/licenses/bsl-1.0/)
 
 
 ### Installation
@@ -27,12 +29,12 @@ npm i
 
 
 ### Testing
-manual testing
+manual
 
 
 
 ### Contributors
-Simsong Eloi
+Simsong Eloi, Sangeetha K.
 
 
 
@@ -44,7 +46,7 @@ simsongeloi@gmail.com
 
 ### Github
 Feel free to check my other projects at
-[Github](https://github.com/simsongE)
+[Github](https://github.com/SimsongE)
 
 
 
