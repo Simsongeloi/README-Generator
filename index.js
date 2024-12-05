@@ -1,13 +1,13 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
-import generateMarkdown from "./utils/generateMarkdown"
+import generateMarkdown from "./utils/generateMarkdown.js"
 
 function init(){
     inquirer.prompt([
         {
             type:"input",
             message:"Enter Project Title",
-            name:"title"
+            name:"Title"
         },
         {
             type:"input",
@@ -16,7 +16,7 @@ function init(){
         },
         {
             type:"input",
-            message:"Enter Project Instalation",
+            message:"Enter Project Installation",
             name:"Installation"
         },
         {
@@ -49,5 +49,17 @@ function init(){
         console.log(response)
         const output = generateMarkdown(response)
         console.log(output)
+        createReadMeFile (output)
     })
 }
+
+
+function createReadMeFile (readmeContent) {
+    // create an empty file by name README.md inside the output folder
+    // Write the content to the file
+    fs.writeFile('./output/README.md', readmeContent, (err) => {
+        err? console.error(err) : console.log('Done creating the README.md file inside the output folder'); 
+    });
+}-
+
+init();

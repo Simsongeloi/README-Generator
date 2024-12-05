@@ -23,8 +23,8 @@ return `
 - [Installation](#installation)
 - [Testing](#testing)
 - [Contributors](#contributors)
-- [Contact me](#Contact-me)
-- [Github](#Github)
+- [Contact me](#contactme)
+- [Github](#github)
 
 
 
@@ -32,7 +32,7 @@ return `
 ### Description
 ${response.Description}
 
-### Instalation
+### Installation
 ${response.Installation}
 
 ### Testing
@@ -41,7 +41,7 @@ ${response.Testing}
 ### Contributors
 ${response.Contributors}
 
-### Contact me
+### ContactMe
 Pleease feel free to reach me for any questions regarding this project
 ${response.email}
 
@@ -52,5 +52,6 @@ Feel free to check my other projects at
 
 
 `
-
 }
+
+export default generateMarkdown;
