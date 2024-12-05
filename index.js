@@ -43,7 +43,7 @@ function init(){
             type:"list",
             message:"Enter Project License",
             name:"License",
-            choices:["MIT","ISC","APACHE 2.0","GPL","None"]
+            choices:["MIT","BSL","APACHE 2.0","GPL","The Unlicensed"]
         },
     ]).then(response => {
         console.log(response)

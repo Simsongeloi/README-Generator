@@ -1,36 +1,50 @@
 
-# Title: README generator
+# Title: ReadMe-generator
 
 ## Table Of contents
 - [Description](#description)
+- [License)[#license]
 - [Installation](#installation)
 - [Testing](#testing)
 - [Contributors](#contributors)
-- [Contact me](#contactme)
+- [Contact me](#contact-me)
 - [Github](#github)
 
 
 
 
 ### Description
-CLI app
+Generate a readme file to help understand what is ask of a project
+
+
+### License
+undefined
+
 
 ### Installation
 npm i
 
+
+
 ### Testing
-Manual
+manual testing
+
+
 
 ### Contributors
-Simsong
+Simsong Eloi
+
+
 
 ### ContactMe
 Pleease feel free to reach me for any questions regarding this project
-ss@gmail.com
+simsongeloi@gmail.com
+
+
 
 ### Github
 Feel free to check my other projects at
-[Github](https://github.com/ss)
+[Github](https://github.com/simsongE)
 
 
 
